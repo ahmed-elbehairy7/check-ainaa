@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function ProtectionActivated() {
   // جلب مستوى الحماية من ENV (إما "low" أو "high")
-  const protectionLevel = process.env.NEXT_PUBLIC_PROTECTION_LEVEL;
+  const protectionLevel = process.env.LEVEL;
 
   // تحديد النص المناسب لكل مستوى
   const levelText =
